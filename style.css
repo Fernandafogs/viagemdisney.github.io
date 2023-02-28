@@ -1,0 +1,138 @@
+
+body{
+    background: rgba(176, 219, 236, 0.466);
+    margin: 0px;
+    font-family: 'Tiro Telugu', serif;
+}
+
+h1 {
+    color: rgba(4, 35, 212, 0.466);
+    
+}
+
+h2 {
+    color: rgba(4, 35, 212, 0.466);
+   
+}
+
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(4, 35, 212, 0.466);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+
+li:last-child {
+    border-right: none;
+  }
+  
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.active {
+    background-color: #6b85f8;
+  }
+
+.images-header{
+    margin-top: 46px;
+}
+
+.foto-principal {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.foto-principal1{
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+.flex-container{
+    margin-top: 15px;
+    color: white;
+    justify-content: space-around;
+    height: 240px;
+    align-items: stretch;
+    background-color: rgba(4, 35, 212, 0.466);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: flex;
+    padding: 40px 60px;
+    text-align: center;
+    border-radius: 50px;
+    column-gap: 30px;
+    column-rule-color: #6b85f8 ;
+}
+
+.foto-destaque1{
+  width: 40%;
+}
+
+.foto-destaque2{
+  width: 32%;
+}
+
+.foto-destaque3{
+  width: 30%;
+}
+
+.turma{
+  margin: 0 15px 0 15px;
+}
+
+.fontes{
+  display: flex;
+  margin: 5px;
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+}
+
+.fontes:hover {
+  border: 1px solid #777;
+}
+
+.fontes img {
+  width: 100%;
+  height: auto;
+}
+
+
+.fontes-links{
+  text-decoration: none;
+  width: 100px;
+  height: auto;
+}
+
+.fontes.icons{
+  width: 60px;
+  height: 40px;
+}
+
+.footer{
+  background-color: rgba(4, 35, 212, 0.466);
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  font-size: 12px;
+}
+
