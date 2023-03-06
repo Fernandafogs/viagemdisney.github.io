@@ -81,18 +81,17 @@ a {
     position: relative;
 }
 .destaques-home{
-    margin-top: 15px;
+    margin-top: 30px 0 30px 0;
     color: white;
     justify-content: space-around;
-    height: 240px;
+    height: 300px;
     align-items: stretch;
-    background-color: rgb(4, 35, 212);
+    background-color: #2f55fa3c;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     display: flex;
-    padding: 40px 60px;
+    padding: 40px 60px 40px 60px;
     text-align: center;
-    border-radius: 50px;
     column-gap: 30px;
     column-rule-color: #6b85f8 ;
 }
@@ -212,6 +211,6 @@ li:last-child {
   border-radius:50px;
   width: 50%;
 }
-.container{
+.container-parques{
   display: flex;
 }
